@@ -1,0 +1,49 @@
+SciDAVis 2.2.7 template file
+<multiLayer>	1	1
+geometry	257	35	1591	656	active
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	432	271
+Alignement	0	0
+<graph>
+ggeometry	6	5	1565	587
+PlotTitle	<i>l</i> =  deg	#ff000000	4
+<Antialiasing>1</Antialiasing>
+Background	#ffffffff	255
+Margin	0
+Border	0	#ff000000
+grid	0	0	0	0	#ff0000ff	0	0	#ffa0a0a4	2	0	#ff0000ff	0	0	#ffa0a0a4	2	0	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	V<sub>corr</sub> [km/s]	Temperature [K]			
+AxesTitleColors	#ff000000	#ff000000	#ff000000	#ff000000	
+AxesTitleAlignment	4	4	4	4
+TitleFont	Segoe UI Semilight	18	50	0	0	0
+ScaleFont0	Courier New	14	50	1	0	0
+ScaleFont1	MS Shell Dlg 2	14	75	0	0	0
+ScaleFont2	Courier New	14	50	1	0	0
+ScaleFont3	MS Shell Dlg 2	14	75	0	0	0
+AxisFont0	MS Shell Dlg 2	14	50	0	0	0
+AxisFont1	MS Shell Dlg 2	14	50	0	0	0
+AxisFont2	MS Shell Dlg 2	14	50	0	0	0
+AxisFont3	MS Shell Dlg 2	14	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesNumberColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffffff	255
+scale	0	-5	35	0	8	5	0	0
+scale	1	-5	35	0	8	5	0	0
+scale	2	-300	300	0	8	5	0	0
+scale	3	-300	300	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+<legend>	168.008048289738	34.3456032719836	MS Shell Dlg 2	14	50	0	0	0	#ff000000	1	0	#00ffffff	0		\c{1}Table2_Tbright	</legend>
+<text>	-289.134808853119	34.3456032719836	MS Shell Dlg 2	7	50	0	0	0	#ff000000	1	0	#00ffffff	0	</text>
+</graph>
+</multiLayer>

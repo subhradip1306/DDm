@@ -1,0 +1,36 @@
+Multipeak Fitting: <i>l</i> = 15<sup>o</sup>
+
+segoe semilight
+
+Axes labels
+other courier
+Temperature [K]
+V<sub>corr</sub> [km/s]
+
+Textbox
+y0+A1 N(xc1,w1<sup>2</sup>) + A2 N(xc2,w2<sup>2</sup>) + A3 N(xc3,w1<sup>2</sup>)
+--------------------------------------
+
+1. Open SciDavis application
+
+2. Go to File > Open Template > locate multi_template.qpt , and open it
+
+3. Go to File > Import ASCII > set the separator to ',' and locate the  file (eg: dat45.csv) saved in Multipeak directory > Open this
+
+4. Go to Graph1 window > rightclick on the plot (NOT the axes) > select 'Add/Remove Curve'
+
+5. Under 'Add/Remove Curve' -- select 'Table2_Tbright' and press the -> button, to bring it in 'Graph Contents'. Select OK
+
+6. A scatter plot should be plotted now. Right click on it > Select Plot Details > Format your plot as desired
+
+7. Once done, go to Analysis > Quick Fit > Fit Multi-Peak > Gaussian
+
+8. Carefully see the scatter plot and find, how many gaussian can have been overlapped (demonstrate) .. upper bound is 5-6. In the dialog box that appears, enter the number of peaks .. you estimate.
+
+9. Click the points on the graph that can be the peaks of the gaussian, and hit enter, once each point is clicked. At the end it will automatically do the fitting. BUT do ensure visually that the mean of the fitted gaussian lies below the peak that you have selected,.. and there is no un physical fit (A is -ve).This is an iterative process, keep doing until optimum.
+
+10 . Note down the centres (mean) of all the peaks. Save the figure for future reference. And repeat the same for all longitudes.
+
+ 
+
+  
